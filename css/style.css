@@ -22,6 +22,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .navigation .navbar-header>a:hover {
@@ -31,6 +32,7 @@ body {
 .navigation .navbar-collapse .nav li>a {
   text-decoration: none;
   color: #fff;
+  font-weight: bold;
 }
 
 .navigation .navbar-collapse .nav li>a:hover {
@@ -38,14 +40,14 @@ body {
 }
 
 .green-content {
-  padding: 50px;
+  padding: 60px;
   background-color: #1abc9c;
   color: #fff;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .ms_star {
@@ -80,8 +82,9 @@ h1 {
 }
 
 .green-content span {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 .ms_star.ms_star-blue:before,
@@ -105,15 +108,20 @@ h1 {
 }
 
 .green-content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #portfolio {
-  padding: 20px 20px 40px;
+  padding: 40px 20px 60px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 40px;
 }
 
 #portfolio .row img {
-  height: 250px;
+  min-height: 250px;
   width: 100%;
   border-radius: 10%;
 }
@@ -130,7 +138,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 250px;
+  height: auto;
   width: auto;
   background-color: transparent;
   border-radius: 10%;
@@ -162,6 +170,14 @@ h1 {
   background-color: rgba(26, 188, 156, 0.9);
 }
 
+#about {
+  padding: 100px 60px;
+}
+
+#contact {
+  padding: 100px 60px;
+}
+
 #contact .form-group input,
 #contact .form-group textarea {
   border: none;
@@ -188,10 +204,10 @@ h1 {
 }
 
 .f-info {
-  background-color: #3a546d;
+  background-color: #2c3e50;
   color: #fff;
-  padding: 40px;
-  font-size: 15px;
+  padding: 50px;
+  font-size: 20px;
 }
 
 .f-info p {
@@ -199,7 +215,9 @@ h1 {
 }
 
 .f-info h4 {
-  padding-top: 10px;
+  padding: 20px 0;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .f-info p a {
@@ -208,25 +226,20 @@ h1 {
 }
 
 .f-info .icon {
-  font-size: 20px;
-  border: 1px solid #fff;
+  font-size: 25px;
+  border: 2px solid #fff;
   border-radius: 40%;
   padding: 5px 10px;
   margin-left: 10px;
 }
 
 .f-copy {
-  background-color: #2c3e50;
+  background-color: #1a252f;
   color: #fff;
-  padding: 20px;
+  padding: 15px;
 }
 
 .f-copy span {
   text-transform: capitalize;
-}
-
-@media all and (max-width: 992px) {
-  #portfolio .row img {
-    width: auto;
-  }
+  font-size: 13px;
 }
