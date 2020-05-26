@@ -116,6 +116,38 @@ h1 {
   padding: 20px;
 }
 
+#portfolio .card {
+  position: relative;
+}
+
+#portfolio .card .transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 250px;
+  width: 100%;
+  background-color: rgba(26, 188, 156, 0.9);
+  margin: 20px;
+  border-radius: 15%;
+  padding: 20px;
+  display: none;
+}
+
+#portfolio .card .plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+  color: #fff;
+  display: none;
+}
+
+#portfolio .card:hover .plus,
+#portfolio .card:hover .transparent {
+  display: block;
+}
+
 #contact .form-group input,
 #contact .form-group textarea {
   border: none;
