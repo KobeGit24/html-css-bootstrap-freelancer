@@ -24,7 +24,7 @@ body {
 }
 
 .navigation .navbar-header>a:hover {
-  color: #0f836c;
+  color: #1abc9c;
   text-decoration: underline;
 }
 
@@ -34,12 +34,12 @@ body {
 }
 
 .navigation .navbar-collapse .nav li>a:hover {
-  color: #0f836c;
+  color: #1abc9c;
   text-decoration: underline;
 }
 
 .h-jumbo {
-  background-color: #0f836c;
+  background-color: #1abc9c;
   color: #fff;
 }
 
@@ -73,7 +73,7 @@ h1 {
 }
 
 .s-content {
-  background-color: #1ABC9C;
+  background-color: #1abc9c;
   color: #fff;
 }
 
@@ -100,6 +100,10 @@ h1 {
   margin: 10px;
 }
 
+.download .fa-download {
+  padding-right: 5px;
+}
+
 .s-content p {
   font-size: 12px;
 }
@@ -111,14 +115,14 @@ h1 {
 .s-button {
   padding: 5px 10px;
   font-size: 20px;
-  background-color: #1ABC9C;
+  background-color: #1abc9c;
   color: #fff;
 }
 
 .s-button:hover {
   color: #fff;
   background-color: #095445;
-  border: 1px solid #1ABC9C;
+  border: 1px solid #1abc9c;
 }
 
 .f-info {
@@ -134,7 +138,7 @@ h1 {
 
 .f-info p a {
   text-decoration: none;
-  color: #1ABC9C;
+  color: #1abc9c;
 }
 
 .f-info .icon {
