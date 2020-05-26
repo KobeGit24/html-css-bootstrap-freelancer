@@ -224,3 +224,9 @@ h1 {
 .f-copy span {
   text-transform: capitalize;
 }
+
+@media all and (max-width: 992px) {
+  #portfolio .row img {
+    width: auto;
+  }
+}
