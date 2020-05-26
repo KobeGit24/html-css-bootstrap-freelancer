@@ -109,27 +109,37 @@ h1 {
 }
 
 #portfolio .row img {
-  min-height: 250px;
-  width: auto;
-  margin: 20px;
+  height: 250px;
+  width: 100%;
   border-radius: 15%;
-  padding: 20px;
+  /* margin: 20px;
+  border-radius: 15%;
+  padding: 20px; */
 }
 
-#portfolio .card {
+/* #portfolio .card {
   position: relative;
+} */
+
+#portfolio .card .portcard {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
 }
 
 #portfolio .card .transparent {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   height: 250px;
   width: 100%;
   background-color: rgba(26, 188, 156, 0.9);
-  margin: 20px;
   border-radius: 15%;
-  padding: 20px;
+  /* margin: 20px;
+  border-radius: 15%;
+  padding: 20px; */
   display: none;
 }
 
@@ -146,6 +156,7 @@ h1 {
 #portfolio .card:hover .plus,
 #portfolio .card:hover .transparent {
   display: block;
+  cursor: pointer;
 }
 
 #contact .form-group input,
