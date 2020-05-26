@@ -74,7 +74,7 @@ h1 {
 
 .green-content img {
   width: auto;
-  max-height: 150px;
+  max-height: 250px;
   margin: 30px 0 10px;
   border-radius: 50%;
 }
@@ -108,22 +108,19 @@ h1 {
   font-size: 14px;
 }
 
+#portfolio {
+  padding: 20px 20px 40px;
+}
+
 #portfolio .row img {
   height: 250px;
   width: 100%;
-  border-radius: 15%;
-  /* margin: 20px;
-  border-radius: 15%;
-  padding: 20px; */
+  border-radius: 10%;
 }
-
-/* #portfolio .card {
-  position: relative;
-} */
 
 #portfolio .card .portcard {
   position: relative;
-  margin: 5px;
+  margin: 5px 5px 10px;
   padding: 5px;
 }
 
@@ -134,13 +131,13 @@ h1 {
   right: 0;
   bottom: 0;
   height: 250px;
-  width: 100%;
-  background-color: rgba(26, 188, 156, 0.9);
-  border-radius: 15%;
-  /* margin: 20px;
-  border-radius: 15%;
-  padding: 20px; */
-  display: none;
+  width: auto;
+  background-color: transparent;
+  border-radius: 10%;
+  margin: 5px;
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
 }
 
 #portfolio .card .plus {
@@ -148,15 +145,21 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-size: 60px;
+  font-size: 70px;
   color: #fff;
-  display: none;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
 }
 
-#portfolio .card:hover .plus,
-#portfolio .card:hover .transparent {
-  display: block;
+#portfolio .card:hover .plus {
+  opacity: 1;
   cursor: pointer;
+}
+
+#portfolio .card:hover .transparent {
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(26, 188, 156, 0.9);
 }
 
 #contact .form-group input,
