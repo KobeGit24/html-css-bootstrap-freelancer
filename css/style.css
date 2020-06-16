@@ -172,6 +172,12 @@ h2 {
 
 #about {
   padding: 100px 60px;
+  min-height: 200px;
+}
+
+.mini-ball li {
+  bottom: 0;
+  color: #000;
 }
 
 #contact {
